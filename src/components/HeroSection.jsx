@@ -22,9 +22,19 @@ const HeroSection = () => {
           the richness in <br /> every food we serve.
         </p>
 
-        <button className="text-dark bg-warning p-1 fs-5">
-          GO TO MENU ----
-        </button>
+        <button
+              className="px-4 py-2 mobile-menu-button"
+              style={{
+                border: "2px solid #F5BE32",
+                color: "#F5BE32",
+                background: "transparent",
+                borderRadius: "50px",
+                fontWeight: "600",
+                transition: "0.3s ease",
+              }}
+            >
+              GO TO MENU →
+            </button>
       </div>
       <div className="hero-overlay"></div>
     </div>
